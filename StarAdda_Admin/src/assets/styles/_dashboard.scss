@@ -1,0 +1,243 @@
+/* Dashboard */
+.dashboard-vector-map {
+  width: 100%;
+  height: 300px;
+}
+
+.proBanner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+
+  .purchase-popup {
+    @extend .grid-margin;
+    background: #000;
+    color: #fff;
+    padding: 15px 20px;
+    @include border-radius(3px);
+
+    .btn {
+      margin-right: 20px;
+      font-weight: 500;
+      color: $white;
+      @include border-radius(5px);
+      @include transition-duration(0.2s);
+
+      &.download-button {
+        background: rgba(249, 249, 249, 0.7);
+        color: #969292;
+        border: 1px solid darken(#e4e4e4, 5%);
+      }
+
+      &.purchase-button {
+        background-color: theme-color(info);
+        color: $white;
+        border: none;
+        line-height: 1;
+        vertical-align: middle;
+      }
+    }
+
+    p {
+      margin-bottom: auto;
+      margin-top: auto;
+      color: darken(#e4e4e4, 20%);
+      font-weight: 400;
+      vertical-align: middle;
+      line-height: 1;
+    }
+
+    i {
+      vertical-align: middle;
+      line-height: 1;
+      margin: auto 0;
+      color: darken(#e4e4e4, 20%);
+    }
+
+    .bannerClose {
+      cursor: pointer;
+    }
+  }
+
+  &.hide {
+    display: none;
+  }
+}
+
+
+.dashboard_cards {
+  background-color: #ededed;
+  border-radius: 8px !important;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  min-height: 100px;
+  align-items: center;
+  transition: 0.3s all ease-in-out;
+  // border: 1px solid #ededed;
+
+}
+
+.dashboard_cards:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  cursor: pointer;
+}
+
+.dashboard_cards h4 {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #2f2f2f;
+  font-weight: 500;
+}
+
+.dashboard_cards h5 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+.dash_icon_box {
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 5px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.dash_cards_bg1 {
+  background-color: #0d6efd;
+}
+
+
+.dash_cards_bg2 {
+  background-color: #00d25b;
+}
+
+
+.dash_cards_bg3 {
+  background-color: #0dcaf0;
+}
+
+
+.dash_cards_bg4 {
+  background-color: #dc3545;
+}
+
+.dash_cards_bg5 {
+  background-color: #ffc107;
+}
+
+.dash_cards_bg6 {
+  background-color: #220fa6;
+}
+
+.dash_cards_bg7 {
+  background-color: #00d283;
+}
+
+
+.dash_cards_bg8 {
+  background-color: #25476a;
+}
+
+.dashboard_heading {
+  color: #0db25b;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+.games_card {
+  background: #fff;
+}
+
+.games_card .card-title {
+  color: #000 !important;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.custom-control-label {
+  color: #000 !important;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+.card_boxes_main {
+  background: rgb(117 253 176 / 34%);
+  background: #fff;
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid #cdcdcd !important;
+
+}
+
+.card_boxes_main .dashboard_heading {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.other_page_cards_main {
+  background: #fff;
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid #cdcdcd !important;
+}
+
+.other_page_cards_heading {
+  color: #000;
+  font-weight: 600;
+  padding-bottom: 0;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize;
+}
+
+.other_page_cards_heading_small {
+  color: #2c2c2c;
+  font-weight: 600;
+  padding-bottom: 0;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize;
+}
+
+.flex_center_between {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.other_page_table,
+.other_page_table tr,
+.other_page_table td,
+.other_page_table th {
+  border: 1px solid #555 !important;
+}
+
+
+.other_page_cards_main label {
+  color: #555;
+  font-size: 16px !important;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #555 !important;
+}

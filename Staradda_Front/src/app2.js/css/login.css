@@ -1,0 +1,329 @@
+.main-area {
+  background-color: transparent;
+  overflow: hidden;
+  width: 100%;
+}
+
+.splash-overlay {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.596)); */
+  /* background: linear-gradient(180deg, transparent -500px, #000 600.5px); */
+  background-size: cover !important;
+  background-position: center !important;
+
+  height: 100vh;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  max-width: 480px;
+  z-index: 2;
+}
+/*.w3-sidebar > a > div{*/
+/*    font-family: "Luckiest Guy", cursive;*/
+/*    font-size: small;*/
+/*    letter-spacing: 2px;*/
+/*}*/
+.splash-screen {
+  -webkit-animation: splashAnim 22s linear infinite;
+  animation: splashAnim 22s linear infinite;
+  height: 100%;
+}
+
+.center-xy {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-footer {
+  padding: 0 10px;
+  padding-top: 120px;
+  bottom: 0%;
+  color: #676767;
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 15px;
+  position: sticky;
+  text-align: center;
+  max-width: 480px;
+  width: 100%;
+  z-index: 2;
+}
+
+element.style {
+  top: 45%;
+  z-index: 3;
+}
+
+.splash-screen {
+  -webkit-animation: splashAnim 22s linear infinite;
+  animation: splashAnim 22s linear infinite;
+  height: 100%;
+}
+
+figure {
+  margin: 0 0 1rem;
+}
+
+.font-15 {
+  color: #2c2c2c;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.cxy,
+.refer-button-copy {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+element.style {
+  width: 85%;
+  height: 70px;
+  border-radius: 5px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+element.style {
+  width: 100px;
+}
+
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.cxy,
+.refer-button-copy {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.refer-button {
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 700;
+  height: 48px;
+  padding: 0 22px;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.refer-button:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+.bg-green {
+  background-color: #0db25b;
+}
+
+.mt-4,
+.my-4 {
+  margin-top: 1.5rem !important;
+}
+input[name='mobile'] {
+  border: 1px solid #d8d6de;
+}
+input[name='mobile']:focus {
+  border-color: #7367f0;
+}
+
+.Login-button {
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 500;
+  height: 48px;
+  padding: 0 22px;
+  color: #fff;
+  letter-spacing: 1px;
+  /* border: 3px solid #f4bc41; */
+  /* box-shadow: rgb(244 188 65) 0px 0px 1rem; */
+  /* font-family: "Luckiest Guy", cursive !important; */
+  /* background-image: linear-gradient(rgb(61, 128, 197), rgb(37, 61, 118)); */
+  background-color: #0db25b;
+  width: 90%;
+  font-weight: 500;
+  /* letter-spacing: 1px; */
+  text-transform: uppercase;
+  font-family: var(--FF);
+}
+
+.login_heading {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--FF);
+  padding: 10px;
+  border-bottom: 1px solid #565555;
+  background-color: #f8f9fa;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  /* border-radius: 10px; */
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.login_box {
+  background-color: #fff;
+  border: 1px solid #565555;
+  /* padding: 40px 10px; */
+  padding-bottom: 40px;
+  border-radius: 10px;
+  position: absolute;
+  /* top: 30%; */
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 95%;
+  margin-top: 100px;
+}
+.login_message_box {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.login_message_box p {
+  color: #212529 !important;
+  font-size: 12px;
+  font-family: var(--FF);
+  font-weight: 400;
+  text-align: center;
+}
+.login_box label {
+  color: #212529 !important;
+  font-size: 14px;
+  font-family: var(--FF);
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+}
+.auth_input_box {
+  color: rgb(48, 48, 48) !important;
+  font-size: 14px;
+  font-family: var(--FF);
+  font-weight: 500;
+}
+.auth_input_box::placeholder {
+  color: rgb(48, 48, 48) !important;
+  font-size: 14px;
+  font-family: var(--FF);
+  font-weight: 500;
+}
+
+.country_code {
+  color: rgb(0, 0, 0) !important;
+  font-size: 14px;
+  font-family: var(--FF);
+  font-weight: 600;
+}
+.login_bg_main {
+  /* background: linear-gradient(to top, #f47201a3, #0db25a86),
+    url(https://img.freepik.com/free-vector/light-trail-christmas-tree-concept_52683-29599.jpg?w=740&t=st=1687783513~exp=1687784113~hmac=58c671a7ffaa0d12f8632537bd8bae81c0967c115a3e2d41d781cd1176a2a077)
+      no-repeat top center; */
+  background-size: 100% 100%;
+}
+
+.change_number_btn {
+  width: 90%;
+  text-align: left;
+}
+.change_number_btn a {
+  color: blue;
+  font-size: 14px;
+  font-family: var(--FF);
+  font-weight: 600;
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.3s all ease-in-out;
+}
+.change_number_btn a:hover {
+  background-color: rgb(50, 50, 247);
+  color: #fff !important;
+}
+.otp_box {
+  width: 90%;
+  margin: auto;
+}
+.login_box input {
+  width: 3em !important;
+  height: 2.5em;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.login_box input:focus {
+  border: 1px solid #000;
+}
+/* LOGIN RESEND */
+.resend_otp_div {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: end;
+  width: 85%;
+  justify-content: end;
+}
+.resend_otp_div h4 {
+  font-size: 1rem !important;
+  font-weight: 600;
+  color: #003441;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+.resend_otp_div h4 span {
+  color: #ee2222;
+}
+.otp_expire {
+  font-size: 12px !important;
+  font-weight: 500;
+  color: #b70000;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+.otp_expire button {
+  font-size: 12px !important;
+  font-weight: 600;
+  color: #003441;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  border: none;
+  background: transparent;
+}

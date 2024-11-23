@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap");
+* {
+  font-family: "Saira Semi Condensed", sans-serif;
+  transition: all 0.5s ease;
+}
+
+
+
+
+
+.field:nth-of-type(2) {
+  margin: 16px 0;
+}
+
+
+.MuiPaper-root {
+  height: 85.5% !important;
+  margin-top: 28px;
+  width: 24.5%;
+  margin-right: 15PX;
+}
+
+@media screen and (max-width: 767px) {
+  .MuiPaper-root {
+    margin-top: 0px;
+    margin-right: 0PX;
+    width: 100%;
+    height: 100% !important;
+  }
+}
+
+
+

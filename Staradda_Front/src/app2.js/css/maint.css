@@ -1,0 +1,40 @@
+/* .bg_maint{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.bg_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+} */
+
+.bg_maint {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+.bg_cont {
+  padding: 10px;
+  width: 100%;
+  color: #fe3347;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
